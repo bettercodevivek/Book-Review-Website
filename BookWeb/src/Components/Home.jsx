@@ -1,8 +1,9 @@
 import React from 'react';
+import LandingPage from './Hero';
 const Home = () => {
   return (
     <>
-    <h1>This is Homepage</h1>
+    <LandingPage/>
     </>
   );
 };

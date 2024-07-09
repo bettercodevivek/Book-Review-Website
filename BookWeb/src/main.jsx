@@ -6,6 +6,8 @@ import Dashboard from './Components/Dashboard';
 import Home from './Components/Home';
 import './index.css'
 import LoginForm from './Components/Authentication/Login';
+import RegistrationForm from './Components/Authentication/Register';
+import OTPVerification from './Components/Authentication/OTP';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,12 @@ const router = createBrowserRouter([
       },
       {path:'login',
         element:<LoginForm/>
+      },
+      {path:'register',
+        element:<RegistrationForm/>
+      },{
+        path:'otp',
+        element:<OTPVerification/>
       }
     ]
   }

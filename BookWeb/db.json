@@ -1,8 +1,50 @@
 {
-  "users":[
-
+  "users": [
+    {
+      "id": "e5fb",
+      "email": "joshspecter8@gmail.com",
+      "username": "Josh101",
+      "password": "Hello101"
+    },
+    {
+      "id": "b7e4",
+      "email": "joshspecter8@gmail.com",
+      "username": "Josh101",
+      "password": "Hello101"
+    },
+    {
+      "id": "b7a9",
+      "email": "xyzabc@mail.com",
+      "username": "xyzabc",
+      "password": "Mypassword"
+    },
+    {
+      "id": "2912",
+      "email": "joshspecter08@gmail.com",
+      "username": "Josh121",
+      "password": "myname"
+    }
   ],
-  "login":[
-    
+  "login": [
+    {
+      "id": "aa31",
+      "email": "joshspecter8@gmail.com",
+      "password": "hello101"
+    },
+    {
+      "id": "d9b8",
+      "email": "xyzabc@mail.com",
+      "password": "npm install npm-run-all --save-dev"
+    },
+    {
+      "id": "95ed",
+      "email": "champvivek05@gmail.com",
+      "password": "hello"
+    },
+    {
+      "id": "a1d2",
+      "email": "ffd@rgfg",
+      "password": "dfd"
+    }
   ]
 }

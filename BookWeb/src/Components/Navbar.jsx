@@ -36,43 +36,43 @@ export default function Navbar() {
                             <li>
                                 <NavLink to='/'
                                     className={({ isActive }) =>
-                                        `block py-2 px-4 rounded duration-200 ${isActive ? "text-amber-500" : "text-black"} hover:bg-gray-50 hover:text-orange-400`
+                                        `block py-2 px-4 rounded duration-200 ${isActive ? "text-blue-500" : "text-black"} hover:bg-gray-50 hover:text-blue-400`
                                     }
                                 >
                                     Home
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to='/profile'
+                                <NavLink to='/dashboard'
                                     className={({ isActive }) =>
-                                        `block py-2 px-4 rounded duration-200 ${isActive ? "text-amber-500" : "text-black"} hover:bg-gray-50 hover:text-orange-400`
+                                        `block py-2 px-4 rounded duration-200 ${isActive ? "text-blue-500" : "text-black"} hover:bg-gray-50 hover:text-blue-400`
                                     }
                                 >
-                                    Corporate Profile
+                                    Dashboard
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to='/vision'
+                                <NavLink to='/books'
                                     className={({ isActive }) =>
-                                        `block py-2 px-4 rounded duration-200 ${isActive ? "text-amber-500" : "text-black"} hover:bg-gray-50 hover:text-orange-400`
+                                        `block py-2 px-4 rounded duration-200 ${isActive ? "text-blue-500" : "text-black"} hover:bg-gray-50 hover:text-blue-400`
                                     }
                                 >
-                                    Our Vision
+                                    Our Books
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to='/products'
+                                <NavLink to='/guidelines'
                                     className={({ isActive }) =>
-                                        `block py-2 px-4 rounded duration-200 ${isActive ? "text-amber-500" : "text-black"} hover:bg-gray-50 hover:text-orange-400`
+                                        `block py-2 px-4 rounded duration-200 ${isActive ? "text-blue-500" : "text-black"} hover:bg-gray-50 hover:text-blue-400`
                                     }
                                 >
-                                    Our Products
+                                    Our Guidelines
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink to='/contact'
                                     className={({ isActive }) =>
-                                        `block py-2 px-4 rounded duration-200 ${isActive ? "text-amber-500" : "text-black"} hover:bg-gray-50 hover:text-orange-400`
+                                        `block py-2 px-4 rounded duration-200 ${isActive ? "text-blue-500" : "text-black"} hover:bg-gray-50 hover:text-blue-400`
                                     }
                                 >
                                     Contact Us

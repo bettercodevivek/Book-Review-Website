@@ -70,12 +70,12 @@ export default function Navbar() {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to='/contact'
+                                <NavLink to='/Login'
                                     className={({ isActive }) =>
                                         `block py-2 px-4 rounded duration-200 ${isActive ? "text-blue-500" : "text-black"} hover:bg-gray-50 hover:text-blue-400`
                                     }
                                 >
-                                    Contact Us
+                                    Login/Register
                                 </NavLink>
                             </li>
                         </ul>

@@ -35,28 +35,25 @@
       "email": "jake1@gmail.com",
       "username": "jake",
       "password": "jake1"
+    },
+    {
+      "id": "7200",
+      "email": "jake12@gmail.com",
+      "username": "jake12",
+      "password": "jake12"
+    },
+    {
+      "id": "ebe5",
+      "email": "joshspecter8@gmail.com",
+      "username": "josh8",
+      "password": "josh888"
+    },
+    {
+      "id": "4d14",
+      "email": "joshspecter8@gmail.com",
+      "username": "Josh1211",
+      "password": "josh1211"
     }
   ],
-  "login": [
-    {
-      "id": "aa31",
-      "email": "joshspecter8@gmail.com",
-      "password": "hello101"
-    },
-    {
-      "id": "d9b8",
-      "email": "xyzabc@mail.com",
-      "password": "npm install npm-run-all --save-dev"
-    },
-    {
-      "id": "95ed",
-      "email": "champvivek05@gmail.com",
-      "password": "hello"
-    },
-    {
-      "id": "a1d2",
-      "email": "ffd@rgfg",
-      "password": "dfd"
-    }
-  ]
+  "login": []
 }

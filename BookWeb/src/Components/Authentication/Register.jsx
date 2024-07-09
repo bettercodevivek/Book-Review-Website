@@ -14,7 +14,7 @@ const RegistrationForm = () => {
     try {
       const response = await axios.post('http://localhost:5174/users', { email, username, password });
       console.log('Registration successful!', response.data);
-      navigate('/otp'); // Redirect to OTP verification page
+      navigate('/otp'); 
     } catch (error) {
       setError('Registration failed. Please try again.');
     }

@@ -23,6 +23,18 @@
       "email": "joshspecter08@gmail.com",
       "username": "Josh121",
       "password": "myname"
+    },
+    {
+      "id": "cb6c",
+      "email": "joshspecter888@gmail.com",
+      "username": "joshnine",
+      "password": "ninejosh"
+    },
+    {
+      "id": "5537",
+      "email": "jake1@gmail.com",
+      "username": "jake",
+      "password": "jake1"
     }
   ],
   "login": [

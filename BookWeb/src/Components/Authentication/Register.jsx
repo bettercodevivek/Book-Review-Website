@@ -1,26 +1,20 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate instead of Navigate
+import { useNavigate } from 'react-router-dom';
 
 const RegistrationForm = () => {
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate(); // useNavigate hook for navigation
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post('http://localhost:5174/users', { email, username, password });
       console.log('Registration successful!', response.data);
-      
-      // Reset error state
-      setError('');
-
-      // Navigate to OTP page
-      navigate('/otp');
-      
+      navigate('/otp'); // Redirect to OTP verification page
     } catch (error) {
       setError('Registration failed. Please try again.');
     }

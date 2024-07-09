@@ -11,12 +11,18 @@ const LoginForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5174/login', { email, password });
-      console.log('Login successful!', response.data);
-      navigate('/dashboard');
-    } catch (error) {
-      setError('Invalid email or password. Please try again.');
-    }
+        const { data } = await axios.get('http://localhost:5174/users');
+        const user = data.find(user => user.email === email && user.password === password);
+  
+        if (user) {
+          console.log('Login successful!', user);
+          navigate('/dashboard'); // Redirect to dashboard on successful login
+        } else {
+          setError('Invalid email or password. Please try again.');
+        }
+      } catch (error) {
+        setError('Login failed. Please try again.');
+      }
   };
 
   return (

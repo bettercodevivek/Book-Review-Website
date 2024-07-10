@@ -9,6 +9,7 @@ import LoginForm from './Components/Authentication/Login';
 import RegistrationForm from './Components/Authentication/Register';
 import OTPVerification from './Components/Authentication/OTP';
 import BookList from './Components/Books/Booklist';
+import OurGuidelines from './Components/Guidelines';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,9 @@ const router = createBrowserRouter([
       {
         path:'books',
         element:<BookList/>
+      },{
+        path:'guidelines',
+        element:<OurGuidelines/>
       }
     ]
   }

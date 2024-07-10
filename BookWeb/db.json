@@ -1,20 +1,10 @@
 {
   "users": [
-    {
-      "id": "cd23",
-      "email": "lallukumar@gmail.com",
-      "username": "lallu",
-      "password": "lallu101",
-      "location": "delhi",
-      "age": "30",
-      "gender": "Male",
-      "dob": "05/10/1997",
-      "bookPreferences": "Fictional"
-    }
+
   ],
   "books": [
     {
-      "id": 1,
+      "id": "1",
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "description": "A novel set in the American South during the 1930s, addressing issues of race and class.",
@@ -32,7 +22,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "1984",
       "author": "George Orwell",
       "description": "A dystopian novel about totalitarianism and government surveillance.",
@@ -50,7 +40,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
       "description": "A romantic novel set in rural England, revolving around the Bennet family.",
@@ -68,7 +58,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "description": "A novel set in the Jazz Age on Long Island, New York, portraying the American Dream.",
@@ -86,7 +76,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Moby-Dick",
       "author": "Herman Melville",
       "description": "A novel about the voyage of the whaling ship Pequod, led by the vengeful Captain Ahab.",
@@ -104,7 +94,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
       "description": "A novel narrated by a teenager named Holden Caulfield, who is expelled from prep school and wanders New York City.",
@@ -122,7 +112,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Brave New World",
       "author": "Aldous Huxley",
       "description": "A dystopian novel set in a futuristic World State, where people are engineered into rigid social classes.",
@@ -140,7 +130,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
       "description": "A high-fantasy epic about the quest to destroy the One Ring and defeat the Dark Lord Sauron.",
@@ -158,7 +148,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Harry Potter and the Philosopher's Stone",
       "author": "J.K. Rowling",
       "description": "The first book in the Harry Potter series, following the young wizard Harry's journey at Hogwarts School of Witchcraft and Wizardry.",
@@ -176,7 +166,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Jane Eyre",
       "author": "Charlotte Brontë",
       "description": "A novel about the experiences of an orphaned girl, Jane Eyre, who becomes a governess and falls in love with her employer, Mr. Rochester.",
@@ -194,7 +184,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
       "description": "A fantasy novel about the adventures of Bilbo Baggins, a hobbit who embarks on a quest to reclaim the treasure guarded by the dragon Smaug.",
@@ -212,7 +202,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Anna Karenina",
       "author": "Leo Tolstoy",
       "description": "A novel exploring themes of love, infidelity, and societal norms in 19th-century Russia.",
@@ -230,7 +220,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "The Odyssey",
       "author": "Homer",
       "description": "An ancient Greek epic poem attributed to Homer, telling the story of Odysseus' journey home after the Trojan War.",
@@ -248,7 +238,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
       "description": "A psychological novel about a young student who commits a crime and grapples with guilt and redemption.",
@@ -266,7 +256,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Wuthering Heights",
       "author": "Emily Brontë",
       "description": "A novel set in the Yorkshire moors, exploring themes of passion, revenge, and social class.",
@@ -284,7 +274,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "One Hundred Years of Solitude",
       "author": "Gabriel García Márquez",
       "description": "A novel following seven generations of the Buendía family in the fictional town of Macondo, Colombia.",
@@ -302,7 +292,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "The Brothers Karamazov",
       "author": "Fyodor Dostoevsky",
       "description": "A philosophical novel exploring faith, morality, and familial relationships in 19th-century Russia.",
@@ -320,7 +310,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Frankenstein",
       "author": "Mary Shelley",
       "description": "A novel about the scientist Victor Frankenstein, who creates a grotesque creature in an unorthodox scientific experiment.",
@@ -338,7 +328,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Don Quixote",
       "author": "Miguel de Cervantes",
       "description": "A satirical novel about an elderly man who believes he is a knight and sets out on adventures with his loyal squire, Sancho Panza.",
@@ -356,7 +346,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "The Picture of Dorian Gray",
       "author": "Oscar Wilde",
       "description": "A novel about a young man whose portrait ages while he remains youthful, exploring themes of beauty, morality, and decadence.",
@@ -374,7 +364,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "The Count of Monte Cristo",
       "author": "Alexandre Dumas",
       "description": "An adventure novel about a man who escapes from unjust imprisonment, gains wealth, and seeks revenge.",
@@ -392,7 +382,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Les Misérables",
       "author": "Victor Hugo",
       "description": "A novel set in early 19th-century France, following the lives of several characters as they grapple with poverty, justice, and redemption.",
@@ -410,7 +400,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "The Road",
       "author": "Cormac McCarthy",
       "description": "A post-apocalyptic novel about a father and son's journey across a barren landscape, struggling to survive.",
@@ -428,7 +418,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "The Grapes of Wrath",
       "author": "John Steinbeck",
       "description": "A novel about a family of tenant farmers displaced from the Dust Bowl during the Great Depression, seeking a better life in California.",
@@ -446,7 +436,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "War and Peace",
       "author": "Leo Tolstoy",
       "description": "A novel set during the Napoleonic Wars, exploring themes of conflict, love, and historical change.",
@@ -464,7 +454,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "Middlemarch",
       "author": "George Eliot",
       "description": "A novel set in a provincial English town, exploring the lives and relationships of its inhabitants.",
@@ -482,7 +472,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "The Adventures of Huckleberry Finn",
       "author": "Mark Twain",
       "description": "A novel about a boy's journey down the Mississippi River with an escaped slave, exploring themes of racism and freedom.",
@@ -500,7 +490,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "The Scarlet Letter",
       "author": "Nathaniel Hawthorne",
       "description": "A novel set in Puritan New England, exploring themes of sin, guilt, and redemption.",
@@ -518,7 +508,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Heart of Darkness",
       "author": "Joseph Conrad",
       "description": "A novella about a journey up the Congo River into the heart of Africa, exploring themes of imperialism and human nature.",
@@ -536,7 +526,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Alice's Adventures in Wonderland",
       "author": "Lewis Carroll",
       "description": "A whimsical novel about a young girl named Alice who falls through a rabbit hole into a fantasy world populated by peculiar creatures.",
@@ -554,7 +544,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": "31",
       "title": "Catch-22",
       "author": "Joseph Heller",
       "description": "A satirical novel about the absurdities of war and bureaucracy, following the experiences of Captain John Yossarian during World War II.",
@@ -572,7 +562,7 @@
       ]
     },
     {
-      "id": 53,
+      "id": "53",
       "title": "The Secret History",
       "author": "Donna Tartt",
       "description": "A novel about a group of classics students at an elite New England college who become involved in a murder.",
@@ -590,7 +580,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": "32",
       "title": "Slaughterhouse-Five",
       "author": "Kurt Vonnegut",
       "description": "A science fiction-infused anti-war novel about the experiences of Billy Pilgrim during World War II and his travels through time.",
@@ -608,7 +598,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": "33",
       "title": "The Handmaid's Tale",
       "author": "Margaret Atwood",
       "description": "A dystopian novel set in a future totalitarian society, where women are treated as property of the state.",
@@ -626,7 +616,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": "34",
       "title": "Beloved",
       "author": "Toni Morrison",
       "description": "A novel about Sethe, an escaped slave haunted by the ghost of her dead child, and the struggles of African Americans after the Civil War.",
@@ -644,7 +634,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": "35",
       "title": "The Kite Runner",
       "author": "Khaled Hosseini",
       "description": "A novel about the friendship between two boys, Amir and Hassan, in Afghanistan, and their journey through guilt, betrayal, and redemption.",
@@ -662,7 +652,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": "36",
       "title": "The Road Less Traveled",
       "author": "M. Scott Peck",
       "description": "A self-help book that explores the concept of love and traditional spiritual values.",
@@ -680,7 +670,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": "37",
       "title": "The Da Vinci Code",
       "author": "Dan Brown",
       "description": "A mystery thriller novel about a Harvard symbologist who investigates a murder in the Louvre and discovers a secret society.",
@@ -698,7 +688,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": "38",
       "title": "The Bell Jar",
       "author": "Sylvia Plath",
       "description": "A semi-autobiographical novel about a young woman's mental health struggles and her experiences with depression.",
@@ -716,7 +706,7 @@
       ]
     },
     {
-      "id": 39,
+      "id": "39",
       "title": "The Sun Also Rises",
       "author": "Ernest Hemingway",
       "description": "A novel about American and British expatriates traveling from Paris to Pamplona to watch the running of the bulls and the bullfights.",
@@ -734,7 +724,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": "40",
       "title": "A Clockwork Orange",
       "author": "Anthony Burgess",
       "description": "A dystopian novel about a teenage delinquent named Alex, who undergoes experimental aversion therapy to curb his violent tendencies.",
@@ -752,7 +742,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": "41",
       "title": "The Stranger",
       "author": "Albert Camus",
       "description": "A philosophical novel about an emotionally detached French Algerian who commits a senseless murder and reflects on the absurdity of life.",
@@ -770,7 +760,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": "42",
       "title": "The Alchemist",
       "author": "Paulo Coelho",
       "description": "A novel about an Andalusian shepherd named Santiago who dreams of finding a treasure in Egypt and encounters spiritual wisdom along the way.",
@@ -788,7 +778,7 @@
       ]
     },
     {
-      "id": 43,
+      "id": "43",
       "title": "The Master and Margarita",
       "author": "Mikhail Bulgakov",
       "description": "A satirical novel about the Devil visiting Moscow, accompanied by a retinue that includes a giant talking cat.",
@@ -806,7 +796,7 @@
       ]
     },
     {
-      "id": 44,
+      "id": "44",
       "title": "A Farewell to Arms",
       "author": "Ernest Hemingway",
       "description": "A novel about an American ambulance driver in Italy during World War I, who falls in love with a British nurse.",
@@ -824,7 +814,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": "45",
       "title": "The Idiot",
       "author": "Fyodor Dostoevsky",
       "description": "A novel about Prince Lev Myshkin, a young epileptic nobleman, and his interactions with Russian society.",
@@ -842,7 +832,7 @@
       ]
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "The Picture of Dorian Gray",
       "author": "Oscar Wilde",
       "description": "A philosophical novel about a young man, Dorian Gray, who sells his soul for eternal youth and beauty, while his portrait ages and reflects his sins.",
@@ -860,7 +850,7 @@
       ]
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "The Name of the Rose",
       "author": "Umberto Eco",
       "description": "A historical mystery novel set in an Italian monastery in the 14th century, where a Franciscan friar investigates a series of murders.",
@@ -878,7 +868,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "The Poisonwood Bible",
       "author": "Barbara Kingsolver",
       "description": "A novel about the Price family, who move to the Belgian Congo as missionaries and face cultural clashes and personal crises.",
@@ -896,7 +886,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": "49",
       "title": "The Trial",
       "author": "Franz Kafka",
       "description": "A novel about Josef K., who is arrested and prosecuted by a mysterious authority for a crime that is never revealed.",
@@ -914,7 +904,7 @@
       ]
     },
     {
-      "id": 50,
+      "id": "50",
       "title": "The Wind-Up Bird Chronicle",
       "author": "Haruki Murakami",
       "description": "A surreal novel about a man's search for his wife's missing cat, which leads him into a mysterious and supernatural underworld.",
@@ -930,12 +920,6 @@
           "rating": 4
         }
       ]
-    },
-    {
-      "id": "854b",
-      "bookId": null,
-      "content": "Nice Read, must try it once!",
-      "rating": 4
     }
   ]
 }

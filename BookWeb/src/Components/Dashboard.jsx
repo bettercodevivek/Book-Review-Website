@@ -20,7 +20,7 @@ const Dashboard = () => {
     const fetchUserInfo = async () => {
       try {
         const { data } = await axios.get('http://localhost:5174/users');
-        const loggedInUser = data.find(user => user.email); 
+        const loggedInUser = data.find(user => user.email); // Update this logic as per your application
 
         if (loggedInUser) {
           setUser(loggedInUser);
@@ -43,9 +43,10 @@ const Dashboard = () => {
   }, []);
 
   const handleLogout = () => {
-    navigate('/login');
     setUser(null);
     setError('');
+    localStorage.removeItem('user'); // Remove user data from localStorage/sessionStorage
+    navigate('/login');
   };
 
   const handleEdit = () => {
@@ -96,14 +97,22 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="min-h-screen relative bg-cover bg-center" style={{ backgroundImage: 'url(https://i.postimg.cc/4xC7V9M9/radu-marcusu-mb-KAp-Jz6-RSU-unsplash.webp)' }}>
+    <div className="min-h-screen relative">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: 'url(https://i.postimg.cc/5tX2r9ZV/ryunosuke-kikuno-FKqx-Z58b-Vj-U-unsplash.webp)',
+          filter: 'blur(8px)',
+          zIndex: -1
+        }}
+      />
       <div className="max-w-lg lg:mx-auto sm:mx-auto md:mx-auto bg-inherit backdrop-blur-xl rounded-xl shadow-2xl overflow-hidden relative lg:top-16 sm:top-16 md:top-16 top-40 mx-12">
         <div className="px-6 py-4">
-          <h1 className="text-3xl font-bold text-white mb-2">Welcome to Your Dashboard</h1>
-          <p className="text-white">Here you can manage your book reviews and more.</p>
+          <h1 className="text-3xl font-bold text-black mb-2">Welcome to Your Dashboard</h1>
+          <p className="text-black">Here you can manage your book reviews and more.</p>
         </div>
         <div className="px-6 py-4">
-          <h2 className="text-xl font-bold text-white mb-2 flex items-center">
+          <h2 className="text-xl font-bold text-black mb-2 flex items-center">
             <FiUser className="mr-2" />
             User Information
           </h2>

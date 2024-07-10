@@ -4,7 +4,12 @@
       "id": "cd23",
       "email": "lallukumar@gmail.com",
       "username": "lallu",
-      "password": "lallu101"
+      "password": "lallu101",
+      "location": "delhi",
+      "age": "30",
+      "gender": "Male",
+      "dob": "05/10/1997",
+      "bookPreferences": "Fictional"
     }
   ]
 }

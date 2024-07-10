@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from 'react-router-dom';
-import { FiHome, FiUser, FiEye, FiBox, FiMail } from 'react-icons/fi';
+import { FiHome, FiUser, FiBookOpen, FiList, FiLogIn } from 'react-icons/fi';
 
 export default function Navbar() {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -10,8 +10,8 @@ export default function Navbar() {
     };
 
     return (
-        <header className="sticky top-0 z-50 bg-white shadow">
-            <nav className="bg-white border-b border-gray-200 px-4 lg:px-8 py-2.5">
+        <header className="sticky top-0 z-50 bg-white">
+            <nav className="bg-white border-gray-200 px-4 lg:px-8 py-2.5">
                 <div className="flex items-center justify-between mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
                         <div className="hidden md:flex flex-col items-start ml-4">
@@ -131,7 +131,7 @@ export default function Navbar() {
                                     `flex items-center space-x-4 py-2 px-6 rounded-lg shadow-md bg-white text-lg font-semibold ${isActive ? "text-blue-500" : "text-gray-900"} hover:bg-gray-200 hover:text-blue-700 transition-transform transform hover:scale-105`
                                 }
                             >
-                                <FiEye className="w-5 h-5" /> <span>Books</span>
+                                <FiBookOpen className="w-5 h-5" /> <span>Books</span>
                             </NavLink>
                         </li>
                         <li>
@@ -141,7 +141,7 @@ export default function Navbar() {
                                     `flex items-center space-x-4 py-2 px-6 rounded-lg shadow-md bg-white text-lg font-semibold ${isActive ? "text-blue-500" : "text-gray-900"} hover:bg-gray-200 hover:text-blue-700 transition-transform transform hover:scale-105`
                                 }
                             >
-                                <FiBox className="w-5 h-5" /> <span>Guidelines</span>
+                                <FiList className="w-5 h-5" /> <span>Guidelines</span>
                             </NavLink>
                         </li>
                         <li>
@@ -151,7 +151,7 @@ export default function Navbar() {
                                     `flex items-center space-x-4 py-2 px-6 rounded-lg shadow-md bg-white text-lg font-semibold ${isActive ? "text-blue-500" : "text-gray-900"} hover:bg-gray-200 hover:text-blue-700 transition-transform transform hover:scale-105`
                                 }
                             >
-                                <FiMail className="w-5 h-5" /> <span>Login</span>
+                                <FiLogIn className="w-5 h-5" /> <span>Login</span>
                             </NavLink>
                         </li>
                     </ul>

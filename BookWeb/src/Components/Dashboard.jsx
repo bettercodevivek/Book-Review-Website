@@ -20,7 +20,7 @@ const Dashboard = () => {
     const fetchUserInfo = async () => {
       try {
         const { data } = await axios.get('http://localhost:5174/users');
-        const loggedInUser = data.find(user => user.email); // Update this logic as per your application
+        const loggedInUser = data.find(user => user.email); 
 
         if (loggedInUser) {
           setUser(loggedInUser);

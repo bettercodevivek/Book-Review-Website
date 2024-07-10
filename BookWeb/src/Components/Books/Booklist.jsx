@@ -23,8 +23,8 @@ const BookList = ({ onSelectBook }) => {
 
   const handleSelectBook = (bookId) => {
     setSelectedBookId(selectedBookId === bookId ? null : bookId);
-    onSelectBook(bookId); // Call parent function if needed
-    setReviewFormData({ ...reviewFormData, bookId }); // Set bookId in review form data
+    onSelectBook(bookId); 
+    setReviewFormData({ ...reviewFormData, bookId }); 
   };
 
   const handleReviewFormChange = (event) => {

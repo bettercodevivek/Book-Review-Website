@@ -3,7 +3,7 @@ import React from 'react';
 const OurGuidelines = () => {
   return (
     <div className="container mx-auto px-6 py-16">
-      <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Guidelines</h2>
+      <h2 className="text-4xl text-center font-bold text-gray-800 mb-6">Our Guidelines</h2>
       
       <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
         <h3 className="text-2xl font-semibold text-gray-800 mb-4">Respectful Communication</h3>

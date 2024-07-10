@@ -1,6 +1,11 @@
 {
   "users": [
-
+    {
+      "id": "3269",
+      "email": "xyzabc@mail.com",
+      "username": "xyzabc",
+      "password": "xyzabc"
+    }
   ],
   "books": [
     {

@@ -11,928 +11,931 @@
       "dob": "05/10/1997",
       "bookPreferences": "Fictional"
     }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A novel set in the American South during the 1930s, addressing issues of race and class.",
+      "reviews": [
+        {
+          "id": 1,
+          "content": "A timeless classic with powerful themes.",
+          "rating": 5
+        },
+        {
+          "id": 2,
+          "content": "Captivating storytelling and memorable characters.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian novel about totalitarianism and government surveillance.",
+      "reviews": [
+        {
+          "id": 3,
+          "content": "Eerily prophetic and thought-provoking.",
+          "rating": 5
+        },
+        {
+          "id": 4,
+          "content": "A must-read for understanding political power dynamics.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A romantic novel set in rural England, revolving around the Bennet family.",
+      "reviews": [
+        {
+          "id": 5,
+          "content": "Delightful wit and social commentary.",
+          "rating": 5
+        },
+        {
+          "id": 6,
+          "content": "Timeless love story with memorable characters.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A novel set in the Jazz Age on Long Island, New York, portraying the American Dream.",
+      "reviews": [
+        {
+          "id": 7,
+          "content": "Beautifully written and rich in symbolism.",
+          "rating": 5
+        },
+        {
+          "id": 8,
+          "content": "Compelling characters and tragic narrative.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "description": "A novel about the voyage of the whaling ship Pequod, led by the vengeful Captain Ahab.",
+      "reviews": [
+        {
+          "id": 9,
+          "content": "Epic in scope and profound in its themes.",
+          "rating": 5
+        },
+        {
+          "id": 10,
+          "content": "A masterpiece of American literature.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "A novel narrated by a teenager named Holden Caulfield, who is expelled from prep school and wanders New York City.",
+      "reviews": [
+        {
+          "id": 11,
+          "content": "Authentic portrayal of teenage angst.",
+          "rating": 4
+        },
+        {
+          "id": 12,
+          "content": "Captivating and poignant.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": "A dystopian novel set in a futuristic World State, where people are engineered into rigid social classes.",
+      "reviews": [
+        {
+          "id": 13,
+          "content": "A chilling vision of a controlled society.",
+          "rating": 5
+        },
+        {
+          "id": 14,
+          "content": "Provocative and intellectually stimulating.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "description": "A high-fantasy epic about the quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+      "reviews": [
+        {
+          "id": 15,
+          "content": "Richly detailed world-building and memorable characters.",
+          "rating": 5
+        },
+        {
+          "id": 16,
+          "content": "A timeless tale of heroism and friendship.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "description": "The first book in the Harry Potter series, following the young wizard Harry's journey at Hogwarts School of Witchcraft and Wizardry.",
+      "reviews": [
+        {
+          "id": 17,
+          "content": "Magical and enchanting storytelling.",
+          "rating": 5
+        },
+        {
+          "id": 18,
+          "content": "Captures the imagination of readers of all ages.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "description": "A novel about the experiences of an orphaned girl, Jane Eyre, who becomes a governess and falls in love with her employer, Mr. Rochester.",
+      "reviews": [
+        {
+          "id": 19,
+          "content": "A powerful story of love, independence, and resilience.",
+          "rating": 5
+        },
+        {
+          "id": 20,
+          "content": "Brontë's prose is both evocative and compelling.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "description": "A fantasy novel about the adventures of Bilbo Baggins, a hobbit who embarks on a quest to reclaim the treasure guarded by the dragon Smaug.",
+      "reviews": [
+        {
+          "id": 21,
+          "content": "A delightful and imaginative journey.",
+          "rating": 5
+        },
+        {
+          "id": 22,
+          "content": "Tolkien's storytelling is masterful.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "description": "A novel exploring themes of love, infidelity, and societal norms in 19th-century Russia.",
+      "reviews": [
+        {
+          "id": 23,
+          "content": "Tolstoy's masterpiece of psychological realism.",
+          "rating": 5
+        },
+        {
+          "id": 24,
+          "content": "Complex characters and profound insights.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "description": "An ancient Greek epic poem attributed to Homer, telling the story of Odysseus' journey home after the Trojan War.",
+      "reviews": [
+        {
+          "id": 25,
+          "content": "A timeless classic of Western literature.",
+          "rating": 5
+        },
+        {
+          "id": 26,
+          "content": "Epic storytelling with enduring themes.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "description": "A psychological novel about a young student who commits a crime and grapples with guilt and redemption.",
+      "reviews": [
+        {
+          "id": 27,
+          "content": "Dostoevsky's exploration of the human condition is profound.",
+          "rating": 5
+        },
+        {
+          "id": 28,
+          "content": "Intense and thought-provoking.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "description": "A novel set in the Yorkshire moors, exploring themes of passion, revenge, and social class.",
+      "reviews": [
+        {
+          "id": 29,
+          "content": "A haunting tale of love and obsession.",
+          "rating": 5
+        },
+        {
+          "id": 30,
+          "content": "Brontë's prose is evocative and atmospheric.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "description": "A novel following seven generations of the Buendía family in the fictional town of Macondo, Colombia.",
+      "reviews": [
+        {
+          "id": 31,
+          "content": "Márquez's magical realism creates a mesmerizing narrative.",
+          "rating": 5
+        },
+        {
+          "id": 32,
+          "content": "A masterpiece of Latin American literature.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "description": "A philosophical novel exploring faith, morality, and familial relationships in 19th-century Russia.",
+      "reviews": [
+        {
+          "id": 33,
+          "content": "Dostoevsky's examination of spirituality and human nature is profound.",
+          "rating": 5
+        },
+        {
+          "id": 34,
+          "content": "Complex characters and gripping storytelling.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "description": "A novel about the scientist Victor Frankenstein, who creates a grotesque creature in an unorthodox scientific experiment.",
+      "reviews": [
+        {
+          "id": 35,
+          "content": "Shelley's exploration of scientific hubris and existential questions is timeless.",
+          "rating": 5
+        },
+        {
+          "id": 36,
+          "content": "A gripping tale with moral complexities.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "description": "A satirical novel about an elderly man who believes he is a knight and sets out on adventures with his loyal squire, Sancho Panza.",
+      "reviews": [
+        {
+          "id": 37,
+          "content": "Cervantes' humor and insight into human nature remain unmatched.",
+          "rating": 5
+        },
+        {
+          "id": 38,
+          "content": "An enduring masterpiece of literature.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "description": "A novel about a young man whose portrait ages while he remains youthful, exploring themes of beauty, morality, and decadence.",
+      "reviews": [
+        {
+          "id": 39,
+          "content": "Wilde's wit and provocative storytelling are captivating.",
+          "rating": 5
+        },
+        {
+          "id": 40,
+          "content": "A haunting tale with timeless themes.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "description": "An adventure novel about a man who escapes from unjust imprisonment, gains wealth, and seeks revenge.",
+      "reviews": [
+        {
+          "id": 41,
+          "content": "Dumas' tale of revenge is gripping and exhilarating.",
+          "rating": 5
+        },
+        {
+          "id": 42,
+          "content": "An epic adventure with memorable characters.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "description": "A novel set in early 19th-century France, following the lives of several characters as they grapple with poverty, justice, and redemption.",
+      "reviews": [
+        {
+          "id": 43,
+          "content": "Hugo's social commentary and vivid characters make this a masterpiece.",
+          "rating": 5
+        },
+        {
+          "id": 44,
+          "content": "A sweeping epic of human resilience and compassion.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "description": "A post-apocalyptic novel about a father and son's journey across a barren landscape, struggling to survive.",
+      "reviews": [
+        {
+          "id": 45,
+          "content": "McCarthy's sparse prose enhances the novel's bleak atmosphere.",
+          "rating": 5
+        },
+        {
+          "id": 46,
+          "content": "A haunting and deeply affecting story.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "description": "A novel about a family of tenant farmers displaced from the Dust Bowl during the Great Depression, seeking a better life in California.",
+      "reviews": [
+        {
+          "id": 47,
+          "content": "Steinbeck's depiction of hardship and resilience is powerful.",
+          "rating": 5
+        },
+        {
+          "id": 48,
+          "content": "A classic of American literature with enduring themes.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "description": "A novel set during the Napoleonic Wars, exploring themes of conflict, love, and historical change.",
+      "reviews": [
+        {
+          "id": 49,
+          "content": "Tolstoy's epic masterpiece of Russian literature.",
+          "rating": 5
+        },
+        {
+          "id": 50,
+          "content": "Rich in historical detail and philosophical insight.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Middlemarch",
+      "author": "George Eliot",
+      "description": "A novel set in a provincial English town, exploring the lives and relationships of its inhabitants.",
+      "reviews": [
+        {
+          "id": 51,
+          "content": "Eliot's insightful portrayal of human nature is compelling.",
+          "rating": 5
+        },
+        {
+          "id": 52,
+          "content": "A masterpiece of Victorian literature.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "description": "A novel about a boy's journey down the Mississippi River with an escaped slave, exploring themes of racism and freedom.",
+      "reviews": [
+        {
+          "id": 53,
+          "content": "Twain's satirical humor and social commentary remain relevant.",
+          "rating": 5
+        },
+        {
+          "id": 54,
+          "content": "An American classic with enduring themes.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne",
+      "description": "A novel set in Puritan New England, exploring themes of sin, guilt, and redemption.",
+      "reviews": [
+        {
+          "id": 55,
+          "content": "Hawthorne's exploration of morality and society is thought-provoking.",
+          "rating": 5
+        },
+        {
+          "id": 56,
+          "content": "A classic tale of love and betrayal.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "description": "A novella about a journey up the Congo River into the heart of Africa, exploring themes of imperialism and human nature.",
+      "reviews": [
+        {
+          "id": 57,
+          "content": "Conrad's exploration of colonialism and darkness of the human soul is profound.",
+          "rating": 5
+        },
+        {
+          "id": 58,
+          "content": "A powerful critique of European imperialism.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "description": "A whimsical novel about a young girl named Alice who falls through a rabbit hole into a fantasy world populated by peculiar creatures.",
+      "reviews": [
+        {
+          "id": 59,
+          "content": "Carroll's imaginative storytelling delights readers of all ages.",
+          "rating": 5
+        },
+        {
+          "id": 60,
+          "content": "A timeless classic of children's literature.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Catch-22",
+      "author": "Joseph Heller",
+      "description": "A satirical novel about the absurdities of war and bureaucracy, following the experiences of Captain John Yossarian during World War II.",
+      "reviews": [
+        {
+          "id": 61,
+          "content": "Heller's dark humor and satirical wit are masterfully executed.",
+          "rating": 5
+        },
+        {
+          "id": 62,
+          "content": "A classic anti-war novel with lasting impact.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "The Secret History",
+      "author": "Donna Tartt",
+      "description": "A novel about a group of classics students at an elite New England college who become involved in a murder.",
+      "reviews": [
+        {
+          "id": 63,
+          "content": "Tartt's prose is rich and compelling.",
+          "rating": 5
+        },
+        {
+          "id": 64,
+          "content": "A mesmerizing exploration of morality and obsession.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "description": "A science fiction-infused anti-war novel about the experiences of Billy Pilgrim during World War II and his travels through time.",
+      "reviews": [
+        {
+          "id": 65,
+          "content": "Vonnegut's blend of satire and science fiction is brilliant.",
+          "rating": 5
+        },
+        {
+          "id": 66,
+          "content": "An existential masterpiece with profound insights.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "description": "A dystopian novel set in a future totalitarian society, where women are treated as property of the state.",
+      "reviews": [
+        {
+          "id": 67,
+          "content": "Atwood's portrayal of oppression is chilling and thought-provoking.",
+          "rating": 5
+        },
+        {
+          "id": 68,
+          "content": "A haunting exploration of power and control.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "description": "A novel about Sethe, an escaped slave haunted by the ghost of her dead child, and the struggles of African Americans after the Civil War.",
+      "reviews": [
+        {
+          "id": 69,
+          "content": "Morrison's prose is poetic and profound.",
+          "rating": 5
+        },
+        {
+          "id": 70,
+          "content": "A powerful meditation on slavery and its legacy.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "description": "A novel about the friendship between two boys, Amir and Hassan, in Afghanistan, and their journey through guilt, betrayal, and redemption.",
+      "reviews": [
+        {
+          "id": 71,
+          "content": "Hosseini's storytelling is emotionally gripping.",
+          "rating": 5
+        },
+        {
+          "id": 72,
+          "content": "A poignant exploration of love and loyalty.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "The Road Less Traveled",
+      "author": "M. Scott Peck",
+      "description": "A self-help book that explores the concept of love and traditional spiritual values.",
+      "reviews": [
+        {
+          "id": 73,
+          "content": "Peck's work offers valuable insights into human psychology.",
+          "rating": 5
+        },
+        {
+          "id": 74,
+          "content": "A transformative book that challenges readers to grow.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "description": "A mystery thriller novel about a Harvard symbologist who investigates a murder in the Louvre and discovers a secret society.",
+      "reviews": [
+        {
+          "id": 75,
+          "content": "Brown's fast-paced storytelling keeps readers hooked.",
+          "rating": 5
+        },
+        {
+          "id": 76,
+          "content": "An intriguing blend of history, art, and conspiracy.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "The Bell Jar",
+      "author": "Sylvia Plath",
+      "description": "A semi-autobiographical novel about a young woman's mental health struggles and her experiences with depression.",
+      "reviews": [
+        {
+          "id": 77,
+          "content": "Plath's writing is raw and emotionally honest.",
+          "rating": 5
+        },
+        {
+          "id": 78,
+          "content": "A poignant reflection on identity and mental illness.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "description": "A novel about American and British expatriates traveling from Paris to Pamplona to watch the running of the bulls and the bullfights.",
+      "reviews": [
+        {
+          "id": 79,
+          "content": "Hemingway's spare prose captures the disillusionment of the Lost Generation.",
+          "rating": 5
+        },
+        {
+          "id": 80,
+          "content": "An exploration of post-war disillusionment and aimlessness.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "A Clockwork Orange",
+      "author": "Anthony Burgess",
+      "description": "A dystopian novel about a teenage delinquent named Alex, who undergoes experimental aversion therapy to curb his violent tendencies.",
+      "reviews": [
+        {
+          "id": 81,
+          "content": "Burgess' exploration of free will and morality is provocative.",
+          "rating": 5
+        },
+        {
+          "id": 82,
+          "content": "A challenging and thought-provoking read.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "description": "A philosophical novel about an emotionally detached French Algerian who commits a senseless murder and reflects on the absurdity of life.",
+      "reviews": [
+        {
+          "id": 83,
+          "content": "Camus' existential exploration is deeply compelling.",
+          "rating": 5
+        },
+        {
+          "id": 84,
+          "content": "An introspective journey into the human condition.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "description": "A novel about an Andalusian shepherd named Santiago who dreams of finding a treasure in Egypt and encounters spiritual wisdom along the way.",
+      "reviews": [
+        {
+          "id": 85,
+          "content": "Coelho's allegorical storytelling resonates with readers worldwide.",
+          "rating": 5
+        },
+        {
+          "id": 86,
+          "content": "A transformative tale of self-discovery and spiritual awakening.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "The Master and Margarita",
+      "author": "Mikhail Bulgakov",
+      "description": "A satirical novel about the Devil visiting Moscow, accompanied by a retinue that includes a giant talking cat.",
+      "reviews": [
+        {
+          "id": 87,
+          "content": "Bulgakov's blend of fantasy and satire is brilliantly executed.",
+          "rating": 5
+        },
+        {
+          "id": 88,
+          "content": "A masterpiece of Russian literature with layers of meaning.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "A Farewell to Arms",
+      "author": "Ernest Hemingway",
+      "description": "A novel about an American ambulance driver in Italy during World War I, who falls in love with a British nurse.",
+      "reviews": [
+        {
+          "id": 89,
+          "content": "Hemingway's spare prose captures the emotional toll of war and love.",
+          "rating": 5
+        },
+        {
+          "id": 90,
+          "content": "An enduring portrayal of love and loss in wartime.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "The Idiot",
+      "author": "Fyodor Dostoevsky",
+      "description": "A novel about Prince Lev Myshkin, a young epileptic nobleman, and his interactions with Russian society.",
+      "reviews": [
+        {
+          "id": 91,
+          "content": "Dostoevsky's exploration of innocence and goodness is profound.",
+          "rating": 5
+        },
+        {
+          "id": 92,
+          "content": "A complex and compelling character study.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "description": "A philosophical novel about a young man, Dorian Gray, who sells his soul for eternal youth and beauty, while his portrait ages and reflects his sins.",
+      "reviews": [
+        {
+          "id": 93,
+          "content": "Wilde's exploration of vanity and morality is timeless.",
+          "rating": 5
+        },
+        {
+          "id": 94,
+          "content": "A chilling portrayal of the consequences of indulgence.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "The Name of the Rose",
+      "author": "Umberto Eco",
+      "description": "A historical mystery novel set in an Italian monastery in the 14th century, where a Franciscan friar investigates a series of murders.",
+      "reviews": [
+        {
+          "id": 95,
+          "content": "Eco's blend of history, philosophy, and mystery is masterful.",
+          "rating": 5
+        },
+        {
+          "id": 96,
+          "content": "An intellectually stimulating and gripping tale.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "The Poisonwood Bible",
+      "author": "Barbara Kingsolver",
+      "description": "A novel about the Price family, who move to the Belgian Congo as missionaries and face cultural clashes and personal crises.",
+      "reviews": [
+        {
+          "id": 97,
+          "content": "Kingsolver's storytelling is rich and immersive.",
+          "rating": 5
+        },
+        {
+          "id": 98,
+          "content": "A powerful exploration of cultural imperialism and personal redemption.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "The Trial",
+      "author": "Franz Kafka",
+      "description": "A novel about Josef K., who is arrested and prosecuted by a mysterious authority for a crime that is never revealed.",
+      "reviews": [
+        {
+          "id": 99,
+          "content": "Kafka's surreal and unsettling narrative resonates with existential dread.",
+          "rating": 5
+        },
+        {
+          "id": 100,
+          "content": "An allegory of modern bureaucracy and alienation.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "The Wind-Up Bird Chronicle",
+      "author": "Haruki Murakami",
+      "description": "A surreal novel about a man's search for his wife's missing cat, which leads him into a mysterious and supernatural underworld.",
+      "reviews": [
+        {
+          "id": 101,
+          "content": "Murakami's blend of realism and surrealism is captivating.",
+          "rating": 5
+        },
+        {
+          "id": 102,
+          "content": "A mesmerizing exploration of memory and identity.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "854b",
+      "bookId": null,
+      "content": "Nice Read, must try it once!",
+      "rating": 4
+    }
   ]
-  ,
-    "books": [
-      {
-        "id": 1,
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "description": "A novel set in the American South during the 1930s, addressing issues of race and class.",
-        "reviews": [
-          {
-            "id": 1,
-            "content": "A timeless classic with powerful themes.",
-            "rating": 5
-          },
-          {
-            "id": 2,
-            "content": "Captivating storytelling and memorable characters.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "1984",
-        "author": "George Orwell",
-        "description": "A dystopian novel about totalitarianism and government surveillance.",
-        "reviews": [
-          {
-            "id": 3,
-            "content": "Eerily prophetic and thought-provoking.",
-            "rating": 5
-          },
-          {
-            "id": 4,
-            "content": "A must-read for understanding political power dynamics.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "description": "A romantic novel set in rural England, revolving around the Bennet family.",
-        "reviews": [
-          {
-            "id": 5,
-            "content": "Delightful wit and social commentary.",
-            "rating": 5
-          },
-          {
-            "id": 6,
-            "content": "Timeless love story with memorable characters.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "description": "A novel set in the Jazz Age on Long Island, New York, portraying the American Dream.",
-        "reviews": [
-          {
-            "id": 7,
-            "content": "Beautifully written and rich in symbolism.",
-            "rating": 5
-          },
-          {
-            "id": 8,
-            "content": "Compelling characters and tragic narrative.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Moby-Dick",
-        "author": "Herman Melville",
-        "description": "A novel about the voyage of the whaling ship Pequod, led by the vengeful Captain Ahab.",
-        "reviews": [
-          {
-            "id": 9,
-            "content": "Epic in scope and profound in its themes.",
-            "rating": 5
-          },
-          {
-            "id": 10,
-            "content": "A masterpiece of American literature.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "title": "The Catcher in the Rye",
-        "author": "J.D. Salinger",
-        "description": "A novel narrated by a teenager named Holden Caulfield, who is expelled from prep school and wanders New York City.",
-        "reviews": [
-          {
-            "id": 11,
-            "content": "Authentic portrayal of teenage angst.",
-            "rating": 4
-          },
-          {
-            "id": 12,
-            "content": "Captivating and poignant.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "title": "Brave New World",
-        "author": "Aldous Huxley",
-        "description": "A dystopian novel set in a futuristic World State, where people are engineered into rigid social classes.",
-        "reviews": [
-          {
-            "id": 13,
-            "content": "A chilling vision of a controlled society.",
-            "rating": 5
-          },
-          {
-            "id": 14,
-            "content": "Provocative and intellectually stimulating.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "title": "The Lord of the Rings",
-        "author": "J.R.R. Tolkien",
-        "description": "A high-fantasy epic about the quest to destroy the One Ring and defeat the Dark Lord Sauron.",
-        "reviews": [
-          {
-            "id": 15,
-            "content": "Richly detailed world-building and memorable characters.",
-            "rating": 5
-          },
-          {
-            "id": 16,
-            "content": "A timeless tale of heroism and friendship.",
-            "rating": 5
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "title": "Harry Potter and the Philosopher's Stone",
-        "author": "J.K. Rowling",
-        "description": "The first book in the Harry Potter series, following the young wizard Harry's journey at Hogwarts School of Witchcraft and Wizardry.",
-        "reviews": [
-          {
-            "id": 17,
-            "content": "Magical and enchanting storytelling.",
-            "rating": 5
-          },
-          {
-            "id": 18,
-            "content": "Captures the imagination of readers of all ages.",
-            "rating": 5
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "title": "Jane Eyre",
-        "author": "Charlotte Brontë",
-        "description": "A novel about the experiences of an orphaned girl, Jane Eyre, who becomes a governess and falls in love with her employer, Mr. Rochester.",
-        "reviews": [
-          {
-            "id": 19,
-            "content": "A powerful story of love, independence, and resilience.",
-            "rating": 5
-          },
-          {
-            "id": 20,
-            "content": "Brontë's prose is both evocative and compelling.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "title": "The Hobbit",
-        "author": "J.R.R. Tolkien",
-        "description": "A fantasy novel about the adventures of Bilbo Baggins, a hobbit who embarks on a quest to reclaim the treasure guarded by the dragon Smaug.",
-        "reviews": [
-          {
-            "id": 21,
-            "content": "A delightful and imaginative journey.",
-            "rating": 5
-          },
-          {
-            "id": 22,
-            "content": "Tolkien's storytelling is masterful.",
-            "rating": 5
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "title": "Anna Karenina",
-        "author": "Leo Tolstoy",
-        "description": "A novel exploring themes of love, infidelity, and societal norms in 19th-century Russia.",
-        "reviews": [
-          {
-            "id": 23,
-            "content": "Tolstoy's masterpiece of psychological realism.",
-            "rating": 5
-          },
-          {
-            "id": 24,
-            "content": "Complex characters and profound insights.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "title": "The Odyssey",
-        "author": "Homer",
-        "description": "An ancient Greek epic poem attributed to Homer, telling the story of Odysseus' journey home after the Trojan War.",
-        "reviews": [
-          {
-            "id": 25,
-            "content": "A timeless classic of Western literature.",
-            "rating": 5
-          },
-          {
-            "id": 26,
-            "content": "Epic storytelling with enduring themes.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "title": "Crime and Punishment",
-        "author": "Fyodor Dostoevsky",
-        "description": "A psychological novel about a young student who commits a crime and grapples with guilt and redemption.",
-        "reviews": [
-          {
-            "id": 27,
-            "content": "Dostoevsky's exploration of the human condition is profound.",
-            "rating": 5
-          },
-          {
-            "id": 28,
-            "content": "Intense and thought-provoking.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "title": "Wuthering Heights",
-        "author": "Emily Brontë",
-        "description": "A novel set in the Yorkshire moors, exploring themes of passion, revenge, and social class.",
-        "reviews": [
-          {
-            "id": 29,
-            "content": "A haunting tale of love and obsession.",
-            "rating": 5
-          },
-          {
-            "id": 30,
-            "content": "Brontë's prose is evocative and atmospheric.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "title": "One Hundred Years of Solitude",
-        "author": "Gabriel García Márquez",
-        "description": "A novel following seven generations of the Buendía family in the fictional town of Macondo, Colombia.",
-        "reviews": [
-          {
-            "id": 31,
-            "content": "Márquez's magical realism creates a mesmerizing narrative.",
-            "rating": 5
-          },
-          {
-            "id": 32,
-            "content": "A masterpiece of Latin American literature.",
-            "rating": 5
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "title": "The Brothers Karamazov",
-        "author": "Fyodor Dostoevsky",
-        "description": "A philosophical novel exploring faith, morality, and familial relationships in 19th-century Russia.",
-        "reviews": [
-          {
-            "id": 33,
-            "content": "Dostoevsky's examination of spirituality and human nature is profound.",
-            "rating": 5
-          },
-          {
-            "id": 34,
-            "content": "Complex characters and gripping storytelling.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "title": "Frankenstein",
-        "author": "Mary Shelley",
-        "description": "A novel about the scientist Victor Frankenstein, who creates a grotesque creature in an unorthodox scientific experiment.",
-        "reviews": [
-          {
-            "id": 35,
-            "content": "Shelley's exploration of scientific hubris and existential questions is timeless.",
-            "rating": 5
-          },
-          {
-            "id": 36,
-            "content": "A gripping tale with moral complexities.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "title": "Don Quixote",
-        "author": "Miguel de Cervantes",
-        "description": "A satirical novel about an elderly man who believes he is a knight and sets out on adventures with his loyal squire, Sancho Panza.",
-        "reviews": [
-          {
-            "id": 37,
-            "content": "Cervantes' humor and insight into human nature remain unmatched.",
-            "rating": 5
-          },
-          {
-            "id": 38,
-            "content": "An enduring masterpiece of literature.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "title": "The Picture of Dorian Gray",
-        "author": "Oscar Wilde",
-        "description": "A novel about a young man whose portrait ages while he remains youthful, exploring themes of beauty, morality, and decadence.",
-        "reviews": [
-          {
-            "id": 39,
-            "content": "Wilde's wit and provocative storytelling are captivating.",
-            "rating": 5
-          },
-          {
-            "id": 40,
-            "content": "A haunting tale with timeless themes.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "title": "The Count of Monte Cristo",
-        "author": "Alexandre Dumas",
-        "description": "An adventure novel about a man who escapes from unjust imprisonment, gains wealth, and seeks revenge.",
-        "reviews": [
-          {
-            "id": 41,
-            "content": "Dumas' tale of revenge is gripping and exhilarating.",
-            "rating": 5
-          },
-          {
-            "id": 42,
-            "content": "An epic adventure with memorable characters.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "title": "Les Misérables",
-        "author": "Victor Hugo",
-        "description": "A novel set in early 19th-century France, following the lives of several characters as they grapple with poverty, justice, and redemption.",
-        "reviews": [
-          {
-            "id": 43,
-            "content": "Hugo's social commentary and vivid characters make this a masterpiece.",
-            "rating": 5
-          },
-          {
-            "id": 44,
-            "content": "A sweeping epic of human resilience and compassion.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 23,
-        "title": "The Road",
-        "author": "Cormac McCarthy",
-        "description": "A post-apocalyptic novel about a father and son's journey across a barren landscape, struggling to survive.",
-        "reviews": [
-          {
-            "id": 45,
-            "content": "McCarthy's sparse prose enhances the novel's bleak atmosphere.",
-            "rating": 5
-          },
-          {
-            "id": 46,
-            "content": "A haunting and deeply affecting story.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "title": "The Grapes of Wrath",
-        "author": "John Steinbeck",
-        "description": "A novel about a family of tenant farmers displaced from the Dust Bowl during the Great Depression, seeking a better life in California.",
-        "reviews": [
-          {
-            "id": 47,
-            "content": "Steinbeck's depiction of hardship and resilience is powerful.",
-            "rating": 5
-          },
-          {
-            "id": 48,
-            "content": "A classic of American literature with enduring themes.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "title": "War and Peace",
-        "author": "Leo Tolstoy",
-        "description": "A novel set during the Napoleonic Wars, exploring themes of conflict, love, and historical change.",
-        "reviews": [
-          {
-            "id": 49,
-            "content": "Tolstoy's epic masterpiece of Russian literature.",
-            "rating": 5
-          },
-          {
-            "id": 50,
-            "content": "Rich in historical detail and philosophical insight.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "title": "Middlemarch",
-        "author": "George Eliot",
-        "description": "A novel set in a provincial English town, exploring the lives and relationships of its inhabitants.",
-        "reviews": [
-          {
-            "id": 51,
-            "content": "Eliot's insightful portrayal of human nature is compelling.",
-            "rating": 5
-          },
-          {
-            "id": 52,
-            "content": "A masterpiece of Victorian literature.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "title": "The Adventures of Huckleberry Finn",
-        "author": "Mark Twain",
-        "description": "A novel about a boy's journey down the Mississippi River with an escaped slave, exploring themes of racism and freedom.",
-        "reviews": [
-          {
-            "id": 53,
-            "content": "Twain's satirical humor and social commentary remain relevant.",
-            "rating": 5
-          },
-          {
-            "id": 54,
-            "content": "An American classic with enduring themes.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "title": "The Scarlet Letter",
-        "author": "Nathaniel Hawthorne",
-        "description": "A novel set in Puritan New England, exploring themes of sin, guilt, and redemption.",
-        "reviews": [
-          {
-            "id": 55,
-            "content": "Hawthorne's exploration of morality and society is thought-provoking.",
-            "rating": 5
-          },
-          {
-            "id": 56,
-            "content": "A classic tale of love and betrayal.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "title": "Heart of Darkness",
-        "author": "Joseph Conrad",
-        "description": "A novella about a journey up the Congo River into the heart of Africa, exploring themes of imperialism and human nature.",
-        "reviews": [
-          {
-            "id": 57,
-            "content": "Conrad's exploration of colonialism and darkness of the human soul is profound.",
-            "rating": 5
-          },
-          {
-            "id": 58,
-            "content": "A powerful critique of European imperialism.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "title": "Alice's Adventures in Wonderland",
-        "author": "Lewis Carroll",
-        "description": "A whimsical novel about a young girl named Alice who falls through a rabbit hole into a fantasy world populated by peculiar creatures.",
-        "reviews": [
-          {
-            "id": 59,
-            "content": "Carroll's imaginative storytelling delights readers of all ages.",
-            "rating": 5
-          },
-          {
-            "id": 60,
-            "content": "A timeless classic of children's literature.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "title": "Catch-22",
-        "author": "Joseph Heller",
-        "description": "A satirical novel about the absurdities of war and bureaucracy, following the experiences of Captain John Yossarian during World War II.",
-        "reviews": [
-          {
-            "id": 61,
-            "content": "Heller's dark humor and satirical wit are masterfully executed.",
-            "rating": 5
-          },
-          {
-            "id": 62,
-            "content": "A classic anti-war novel with lasting impact.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "title": "The Secret History",
-        "author": "Donna Tartt",
-        "description": "A novel about a group of classics students at an elite New England college who become involved in a murder.",
-        "reviews": [
-          {
-            "id": 63,
-            "content": "Tartt's prose is rich and compelling.",
-            "rating": 5
-          },
-          {
-            "id": 64,
-            "content": "A mesmerizing exploration of morality and obsession.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 32,
-        "title": "Slaughterhouse-Five",
-        "author": "Kurt Vonnegut",
-        "description": "A science fiction-infused anti-war novel about the experiences of Billy Pilgrim during World War II and his travels through time.",
-        "reviews": [
-          {
-            "id": 65,
-            "content": "Vonnegut's blend of satire and science fiction is brilliant.",
-            "rating": 5
-          },
-          {
-            "id": 66,
-            "content": "An existential masterpiece with profound insights.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "title": "The Handmaid's Tale",
-        "author": "Margaret Atwood",
-        "description": "A dystopian novel set in a future totalitarian society, where women are treated as property of the state.",
-        "reviews": [
-          {
-            "id": 67,
-            "content": "Atwood's portrayal of oppression is chilling and thought-provoking.",
-            "rating": 5
-          },
-          {
-            "id": 68,
-            "content": "A haunting exploration of power and control.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "title": "Beloved",
-        "author": "Toni Morrison",
-        "description": "A novel about Sethe, an escaped slave haunted by the ghost of her dead child, and the struggles of African Americans after the Civil War.",
-        "reviews": [
-          {
-            "id": 69,
-            "content": "Morrison's prose is poetic and profound.",
-            "rating": 5
-          },
-          {
-            "id": 70,
-            "content": "A powerful meditation on slavery and its legacy.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "title": "The Kite Runner",
-        "author": "Khaled Hosseini",
-        "description": "A novel about the friendship between two boys, Amir and Hassan, in Afghanistan, and their journey through guilt, betrayal, and redemption.",
-        "reviews": [
-          {
-            "id": 71,
-            "content": "Hosseini's storytelling is emotionally gripping.",
-            "rating": 5
-          },
-          {
-            "id": 72,
-            "content": "A poignant exploration of love and loyalty.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "title": "The Road Less Traveled",
-        "author": "M. Scott Peck",
-        "description": "A self-help book that explores the concept of love and traditional spiritual values.",
-        "reviews": [
-          {
-            "id": 73,
-            "content": "Peck's work offers valuable insights into human psychology.",
-            "rating": 5
-          },
-          {
-            "id": 74,
-            "content": "A transformative book that challenges readers to grow.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "title": "The Da Vinci Code",
-        "author": "Dan Brown",
-        "description": "A mystery thriller novel about a Harvard symbologist who investigates a murder in the Louvre and discovers a secret society.",
-        "reviews": [
-          {
-            "id": 75,
-            "content": "Brown's fast-paced storytelling keeps readers hooked.",
-            "rating": 5
-          },
-          {
-            "id": 76,
-            "content": "An intriguing blend of history, art, and conspiracy.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "title": "The Bell Jar",
-        "author": "Sylvia Plath",
-        "description": "A semi-autobiographical novel about a young woman's mental health struggles and her experiences with depression.",
-        "reviews": [
-          {
-            "id": 77,
-            "content": "Plath's writing is raw and emotionally honest.",
-            "rating": 5
-          },
-          {
-            "id": 78,
-            "content": "A poignant reflection on identity and mental illness.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "title": "The Sun Also Rises",
-        "author": "Ernest Hemingway",
-        "description": "A novel about American and British expatriates traveling from Paris to Pamplona to watch the running of the bulls and the bullfights.",
-        "reviews": [
-          {
-            "id": 79,
-            "content": "Hemingway's spare prose captures the disillusionment of the Lost Generation.",
-            "rating": 5
-          },
-          {
-            "id": 80,
-            "content": "An exploration of post-war disillusionment and aimlessness.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "title": "A Clockwork Orange",
-        "author": "Anthony Burgess",
-        "description": "A dystopian novel about a teenage delinquent named Alex, who undergoes experimental aversion therapy to curb his violent tendencies.",
-        "reviews": [
-          {
-            "id": 81,
-            "content": "Burgess' exploration of free will and morality is provocative.",
-            "rating": 5
-          },
-          {
-            "id": 82,
-            "content": "A challenging and thought-provoking read.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "title": "The Stranger",
-        "author": "Albert Camus",
-        "description": "A philosophical novel about an emotionally detached French Algerian who commits a senseless murder and reflects on the absurdity of life.",
-        "reviews": [
-          {
-            "id": 83,
-            "content": "Camus' existential exploration is deeply compelling.",
-            "rating": 5
-          },
-          {
-            "id": 84,
-            "content": "An introspective journey into the human condition.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "title": "The Alchemist",
-        "author": "Paulo Coelho",
-        "description": "A novel about an Andalusian shepherd named Santiago who dreams of finding a treasure in Egypt and encounters spiritual wisdom along the way.",
-        "reviews": [
-          {
-            "id": 85,
-            "content": "Coelho's allegorical storytelling resonates with readers worldwide.",
-            "rating": 5
-          },
-          {
-            "id": 86,
-            "content": "A transformative tale of self-discovery and spiritual awakening.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 43,
-        "title": "The Master and Margarita",
-        "author": "Mikhail Bulgakov",
-        "description": "A satirical novel about the Devil visiting Moscow, accompanied by a retinue that includes a giant talking cat.",
-        "reviews": [
-          {
-            "id": 87,
-            "content": "Bulgakov's blend of fantasy and satire is brilliantly executed.",
-            "rating": 5
-          },
-          {
-            "id": 88,
-            "content": "A masterpiece of Russian literature with layers of meaning.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 44,
-        "title": "A Farewell to Arms",
-        "author": "Ernest Hemingway",
-        "description": "A novel about an American ambulance driver in Italy during World War I, who falls in love with a British nurse.",
-        "reviews": [
-          {
-            "id": 89,
-            "content": "Hemingway's spare prose captures the emotional toll of war and love.",
-            "rating": 5
-          },
-          {
-            "id": 90,
-            "content": "An enduring portrayal of love and loss in wartime.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "title": "The Idiot",
-        "author": "Fyodor Dostoevsky",
-        "description": "A novel about Prince Lev Myshkin, a young epileptic nobleman, and his interactions with Russian society.",
-        "reviews": [
-          {
-            "id": 91,
-            "content": "Dostoevsky's exploration of innocence and goodness is profound.",
-            "rating": 5
-          },
-          {
-            "id": 92,
-            "content": "A complex and compelling character study.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 46,
-        "title": "The Picture of Dorian Gray",
-        "author": "Oscar Wilde",
-        "description": "A philosophical novel about a young man, Dorian Gray, who sells his soul for eternal youth and beauty, while his portrait ages and reflects his sins.",
-        "reviews": [
-          {
-            "id": 93,
-            "content": "Wilde's exploration of vanity and morality is timeless.",
-            "rating": 5
-          },
-          {
-            "id": 94,
-            "content": "A chilling portrayal of the consequences of indulgence.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "title": "The Name of the Rose",
-        "author": "Umberto Eco",
-        "description": "A historical mystery novel set in an Italian monastery in the 14th century, where a Franciscan friar investigates a series of murders.",
-        "reviews": [
-          {
-            "id": 95,
-            "content": "Eco's blend of history, philosophy, and mystery is masterful.",
-            "rating": 5
-          },
-          {
-            "id": 96,
-            "content": "An intellectually stimulating and gripping tale.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 48,
-        "title": "The Poisonwood Bible",
-        "author": "Barbara Kingsolver",
-        "description": "A novel about the Price family, who move to the Belgian Congo as missionaries and face cultural clashes and personal crises.",
-        "reviews": [
-          {
-            "id": 97,
-            "content": "Kingsolver's storytelling is rich and immersive.",
-            "rating": 5
-          },
-          {
-            "id": 98,
-            "content": "A powerful exploration of cultural imperialism and personal redemption.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 49,
-        "title": "The Trial",
-        "author": "Franz Kafka",
-        "description": "A novel about Josef K., who is arrested and prosecuted by a mysterious authority for a crime that is never revealed.",
-        "reviews": [
-          {
-            "id": 99,
-            "content": "Kafka's surreal and unsettling narrative resonates with existential dread.",
-            "rating": 5
-          },
-          {
-            "id": 100,
-            "content": "An allegory of modern bureaucracy and alienation.",
-            "rating": 4
-          }
-        ]
-      },
-      {
-        "id": 50,
-        "title": "The Wind-Up Bird Chronicle",
-        "author": "Haruki Murakami",
-        "description": "A surreal novel about a man's search for his wife's missing cat, which leads him into a mysterious and supernatural underworld.",
-        "reviews": [
-          {
-            "id": 101,
-            "content": "Murakami's blend of realism and surrealism is captivating.",
-            "rating": 5
-          },
-          {
-            "id": 102,
-            "content": "A mesmerizing exploration of memory and identity.",
-            "rating": 4
-          }
-        ]
-      }
-
-    ]
-  
 }

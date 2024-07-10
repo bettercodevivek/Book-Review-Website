@@ -4,8 +4,8 @@ import axios from 'axios';
 const BookList = ({ onSelectBook }) => {
   const [books, setBooks] = useState([]);
   const [error, setError] = useState('');
-  const [selectedBookId, setSelectedBookId] = useState(null); // Track selected book id for details
-  const [reviewFormData, setReviewFormData] = useState({ bookId: null, content: '', rating: 0 });
+  const [selectedBookId, setSelectedBookId] = useState(null);
+  const [reviewFormData, setReviewFormData] = useState({ bookId:null, content: '', rating: 0 });
   const [submittingReview, setSubmittingReview] = useState(false);
 
   useEffect(() => {
@@ -24,6 +24,7 @@ const BookList = ({ onSelectBook }) => {
   const handleSelectBook = (bookId) => {
     setSelectedBookId(selectedBookId === bookId ? null : bookId);
     onSelectBook(bookId); // Call parent function if needed
+    setReviewFormData({ ...reviewFormData, bookId }); // Set bookId in review form data
   };
 
   const handleReviewFormChange = (event) => {
@@ -45,16 +46,25 @@ const BookList = ({ onSelectBook }) => {
     event.preventDefault();
     try {
       setSubmittingReview(true);
-      const response = await axios.post('http://localhost:5174/reviews', reviewFormData);
+      const { bookId, ...reviewData } = reviewFormData;
+
+      // Fetch the current book to get its existing reviews
+      const bookResponse = await axios.get(`http://localhost:5174/books/${bookId}`);
+      const book = bookResponse.data;
+
+      // Update the book's reviews
+      const updatedReviews = [...book.reviews, reviewData];
+      await axios.patch(`http://localhost:5174/books/${bookId}`, { reviews: updatedReviews });
+
+      // Update the state with the new review
       const updatedBooks = books.map(book =>
-        book.id === reviewFormData.bookId
-          ? {
-              ...book,
-              reviews: [...book.reviews, response.data]
-            }
+        book.id === bookId
+          ? { ...book, reviews: updatedReviews }
           : book
       );
       setBooks(updatedBooks);
+
+      // Reset review form data after submission
       setReviewFormData({ bookId: null, content: '', rating: 0 });
       setSubmittingReview(false);
     } catch (error) {

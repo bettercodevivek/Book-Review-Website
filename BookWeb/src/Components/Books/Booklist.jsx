@@ -99,7 +99,10 @@ const BookList = ({ onSelectBook }) => {
       {books.length === 0 && <p>No books available.</p>}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {books.map(book => (
-          <div key={book.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div
+            key={book.id}
+            className="bg-gradient-to-r from-blue-500 to-blue-400 rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-xl"
+          >
             <div className="px-6 py-4">
               <h3 className="text-xl font-bold text-gray-800 mb-2">{book.title}</h3>
               <p className="text-gray-700">{book.author}</p>
@@ -147,7 +150,7 @@ const BookList = ({ onSelectBook }) => {
                     </div>
                     <button
                       type="submit"
-                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                      className="bg-white  text-blue-600 font-bold py-2 px-4 rounded"
                       disabled={submittingReview}
                     >
                       {submittingReview ? 'Submitting...' : 'Submit Review'}
@@ -156,7 +159,7 @@ const BookList = ({ onSelectBook }) => {
                 </>
               )}
               <button
-                className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                className="mt-4 bg-white  text-blue-600 font-bold py-2 px-4 rounded"
                 onClick={() => handleSelectBook(book.id)}
               >
                 {selectedBookId === book.id ? 'Hide Details' : 'View Details'}

@@ -16,7 +16,7 @@ const LandingPage = () => {
             <h2 className="text-4xl font-bold" data-aos="fade-down">Welcome to Reader's Realm</h2>
             <p className="mt-4" data-aos="fade-up">Your one-stop solution for managing and reviewing books.</p>
             <div className="mt-8" data-aos="zoom-in">
-              <a href="/register" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Get Started</a>
+              <Link to="/register" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Get Started</Link>
             </div>
           </div>
         </div>

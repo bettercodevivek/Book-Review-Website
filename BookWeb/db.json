@@ -571,7 +571,368 @@
             "rating": 4
           }
         ]
+      },
+      {
+        "id": 31,
+        "title": "The Secret History",
+        "author": "Donna Tartt",
+        "description": "A novel about a group of classics students at an elite New England college who become involved in a murder.",
+        "reviews": [
+          {
+            "id": 63,
+            "content": "Tartt's prose is rich and compelling.",
+            "rating": 5
+          },
+          {
+            "id": 64,
+            "content": "A mesmerizing exploration of morality and obsession.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "title": "Slaughterhouse-Five",
+        "author": "Kurt Vonnegut",
+        "description": "A science fiction-infused anti-war novel about the experiences of Billy Pilgrim during World War II and his travels through time.",
+        "reviews": [
+          {
+            "id": 65,
+            "content": "Vonnegut's blend of satire and science fiction is brilliant.",
+            "rating": 5
+          },
+          {
+            "id": 66,
+            "content": "An existential masterpiece with profound insights.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "description": "A dystopian novel set in a future totalitarian society, where women are treated as property of the state.",
+        "reviews": [
+          {
+            "id": 67,
+            "content": "Atwood's portrayal of oppression is chilling and thought-provoking.",
+            "rating": 5
+          },
+          {
+            "id": 68,
+            "content": "A haunting exploration of power and control.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "title": "Beloved",
+        "author": "Toni Morrison",
+        "description": "A novel about Sethe, an escaped slave haunted by the ghost of her dead child, and the struggles of African Americans after the Civil War.",
+        "reviews": [
+          {
+            "id": 69,
+            "content": "Morrison's prose is poetic and profound.",
+            "rating": 5
+          },
+          {
+            "id": 70,
+            "content": "A powerful meditation on slavery and its legacy.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "description": "A novel about the friendship between two boys, Amir and Hassan, in Afghanistan, and their journey through guilt, betrayal, and redemption.",
+        "reviews": [
+          {
+            "id": 71,
+            "content": "Hosseini's storytelling is emotionally gripping.",
+            "rating": 5
+          },
+          {
+            "id": 72,
+            "content": "A poignant exploration of love and loyalty.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "title": "The Road Less Traveled",
+        "author": "M. Scott Peck",
+        "description": "A self-help book that explores the concept of love and traditional spiritual values.",
+        "reviews": [
+          {
+            "id": 73,
+            "content": "Peck's work offers valuable insights into human psychology.",
+            "rating": 5
+          },
+          {
+            "id": 74,
+            "content": "A transformative book that challenges readers to grow.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "description": "A mystery thriller novel about a Harvard symbologist who investigates a murder in the Louvre and discovers a secret society.",
+        "reviews": [
+          {
+            "id": 75,
+            "content": "Brown's fast-paced storytelling keeps readers hooked.",
+            "rating": 5
+          },
+          {
+            "id": 76,
+            "content": "An intriguing blend of history, art, and conspiracy.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "title": "The Bell Jar",
+        "author": "Sylvia Plath",
+        "description": "A semi-autobiographical novel about a young woman's mental health struggles and her experiences with depression.",
+        "reviews": [
+          {
+            "id": 77,
+            "content": "Plath's writing is raw and emotionally honest.",
+            "rating": 5
+          },
+          {
+            "id": 78,
+            "content": "A poignant reflection on identity and mental illness.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "title": "The Sun Also Rises",
+        "author": "Ernest Hemingway",
+        "description": "A novel about American and British expatriates traveling from Paris to Pamplona to watch the running of the bulls and the bullfights.",
+        "reviews": [
+          {
+            "id": 79,
+            "content": "Hemingway's spare prose captures the disillusionment of the Lost Generation.",
+            "rating": 5
+          },
+          {
+            "id": 80,
+            "content": "An exploration of post-war disillusionment and aimlessness.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "title": "A Clockwork Orange",
+        "author": "Anthony Burgess",
+        "description": "A dystopian novel about a teenage delinquent named Alex, who undergoes experimental aversion therapy to curb his violent tendencies.",
+        "reviews": [
+          {
+            "id": 81,
+            "content": "Burgess' exploration of free will and morality is provocative.",
+            "rating": 5
+          },
+          {
+            "id": 82,
+            "content": "A challenging and thought-provoking read.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "title": "The Stranger",
+        "author": "Albert Camus",
+        "description": "A philosophical novel about an emotionally detached French Algerian who commits a senseless murder and reflects on the absurdity of life.",
+        "reviews": [
+          {
+            "id": 83,
+            "content": "Camus' existential exploration is deeply compelling.",
+            "rating": 5
+          },
+          {
+            "id": 84,
+            "content": "An introspective journey into the human condition.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "description": "A novel about an Andalusian shepherd named Santiago who dreams of finding a treasure in Egypt and encounters spiritual wisdom along the way.",
+        "reviews": [
+          {
+            "id": 85,
+            "content": "Coelho's allegorical storytelling resonates with readers worldwide.",
+            "rating": 5
+          },
+          {
+            "id": 86,
+            "content": "A transformative tale of self-discovery and spiritual awakening.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "title": "The Master and Margarita",
+        "author": "Mikhail Bulgakov",
+        "description": "A satirical novel about the Devil visiting Moscow, accompanied by a retinue that includes a giant talking cat.",
+        "reviews": [
+          {
+            "id": 87,
+            "content": "Bulgakov's blend of fantasy and satire is brilliantly executed.",
+            "rating": 5
+          },
+          {
+            "id": 88,
+            "content": "A masterpiece of Russian literature with layers of meaning.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "title": "A Farewell to Arms",
+        "author": "Ernest Hemingway",
+        "description": "A novel about an American ambulance driver in Italy during World War I, who falls in love with a British nurse.",
+        "reviews": [
+          {
+            "id": 89,
+            "content": "Hemingway's spare prose captures the emotional toll of war and love.",
+            "rating": 5
+          },
+          {
+            "id": 90,
+            "content": "An enduring portrayal of love and loss in wartime.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "title": "The Idiot",
+        "author": "Fyodor Dostoevsky",
+        "description": "A novel about Prince Lev Myshkin, a young epileptic nobleman, and his interactions with Russian society.",
+        "reviews": [
+          {
+            "id": 91,
+            "content": "Dostoevsky's exploration of innocence and goodness is profound.",
+            "rating": 5
+          },
+          {
+            "id": 92,
+            "content": "A complex and compelling character study.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "description": "A philosophical novel about a young man, Dorian Gray, who sells his soul for eternal youth and beauty, while his portrait ages and reflects his sins.",
+        "reviews": [
+          {
+            "id": 93,
+            "content": "Wilde's exploration of vanity and morality is timeless.",
+            "rating": 5
+          },
+          {
+            "id": 94,
+            "content": "A chilling portrayal of the consequences of indulgence.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "title": "The Name of the Rose",
+        "author": "Umberto Eco",
+        "description": "A historical mystery novel set in an Italian monastery in the 14th century, where a Franciscan friar investigates a series of murders.",
+        "reviews": [
+          {
+            "id": 95,
+            "content": "Eco's blend of history, philosophy, and mystery is masterful.",
+            "rating": 5
+          },
+          {
+            "id": 96,
+            "content": "An intellectually stimulating and gripping tale.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "title": "The Poisonwood Bible",
+        "author": "Barbara Kingsolver",
+        "description": "A novel about the Price family, who move to the Belgian Congo as missionaries and face cultural clashes and personal crises.",
+        "reviews": [
+          {
+            "id": 97,
+            "content": "Kingsolver's storytelling is rich and immersive.",
+            "rating": 5
+          },
+          {
+            "id": 98,
+            "content": "A powerful exploration of cultural imperialism and personal redemption.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "title": "The Trial",
+        "author": "Franz Kafka",
+        "description": "A novel about Josef K., who is arrested and prosecuted by a mysterious authority for a crime that is never revealed.",
+        "reviews": [
+          {
+            "id": 99,
+            "content": "Kafka's surreal and unsettling narrative resonates with existential dread.",
+            "rating": 5
+          },
+          {
+            "id": 100,
+            "content": "An allegory of modern bureaucracy and alienation.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "title": "The Wind-Up Bird Chronicle",
+        "author": "Haruki Murakami",
+        "description": "A surreal novel about a man's search for his wife's missing cat, which leads him into a mysterious and supernatural underworld.",
+        "reviews": [
+          {
+            "id": 101,
+            "content": "Murakami's blend of realism and surrealism is captivating.",
+            "rating": 5
+          },
+          {
+            "id": 102,
+            "content": "A mesmerizing exploration of memory and identity.",
+            "rating": 4
+          }
+        ]
       }
+
     ]
   
 }

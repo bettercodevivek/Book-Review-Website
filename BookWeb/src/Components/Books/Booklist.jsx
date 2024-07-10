@@ -4,6 +4,7 @@ import axios from 'axios';
 const BookList = ({ onSelectBook }) => {
   const [books, setBooks] = useState([]);
   const [error, setError] = useState('');
+  const [selectedBookId, setSelectedBookId] = useState(null); // Track selected book id for details
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -19,7 +20,9 @@ const BookList = ({ onSelectBook }) => {
   }, []);
 
   const handleSelectBook = (bookId) => {
-    onSelectBook(bookId);
+    // Toggle selected book id for details display
+    setSelectedBookId(selectedBookId === bookId ? null : bookId);
+    onSelectBook(bookId); // Call parent function if needed
   };
 
   const renderStars = (rating) => {
@@ -52,28 +55,32 @@ const BookList = ({ onSelectBook }) => {
             <div className="px-6 py-4">
               <h3 className="text-xl font-bold text-gray-800 mb-2">{book.title}</h3>
               <p className="text-gray-700">{book.author}</p>
-              <p className="text-gray-700 mt-2">{book.description}</p>
-              <div className="mt-4">
-                <h4 className="text-lg font-semibold text-gray-800 mb-2">Reviews:</h4>
-                <div className="grid grid-cols-1 gap-2">
-                  {book.reviews.map(review => (
-                    <div key={review.id} className="bg-gray-100 rounded-lg p-4">
-                      <p className="text-gray-700">{review.content}</p>
-                      <div className="flex mt-2">
-                        <span className="text-gray-600 mr-1">Rating:</span>
-                        <div className="flex">
-                          {renderStars(review.rating)}
+              {selectedBookId === book.id && ( // Display description and reviews if selectedBookId matches book.id
+                <>
+                  <p className="text-gray-700 mt-2">{book.description}</p>
+                  <div className="mt-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-2">Reviews:</h4>
+                    <div className="grid grid-cols-1 gap-2">
+                      {book.reviews.map(review => (
+                        <div key={review.id} className="bg-gray-100 rounded-lg p-4">
+                          <p className="text-gray-700">{review.content}</p>
+                          <div className="flex mt-2">
+                            <span className="text-gray-600 mr-1">Rating:</span>
+                            <div className="flex">
+                              {renderStars(review.rating)}
+                            </div>
+                          </div>
                         </div>
-                      </div>
+                      ))}
                     </div>
-                  ))}
-                </div>
-              </div>
+                  </div>
+                </>
+              )}
               <button
                 className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 onClick={() => handleSelectBook(book.id)}
               >
-                View Details
+                {selectedBookId === book.id ? 'Hide Details' : 'View Details'}
               </button>
             </div>
           </div>

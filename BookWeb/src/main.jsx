@@ -8,6 +8,7 @@ import './index.css'
 import LoginForm from './Components/Authentication/Login';
 import RegistrationForm from './Components/Authentication/Register';
 import OTPVerification from './Components/Authentication/OTP';
+import BookList from './Components/Books/Booklist';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       },{
         path:'otp',
         element:<OTPVerification/>
+      },
+      {
+        path:'books',
+        element:<BookList/>
       }
     ]
   }

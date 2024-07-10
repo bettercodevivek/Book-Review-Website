@@ -1,57 +1,69 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
 
 const Dashboard = () => {
   const [user, setUser] = useState(null);
-  const navigate = useNavigate();
+  const [error, setError] = useState('');
 
   useEffect(() => {
-    const fetchUser = async () => {
-      try {
-        const token = localStorage.getItem('token');
-        if (!token) {
-          navigate('/login');
-          return;
-        }
+    const fetchUserInfo = async () => {
+      const token = localStorage.getItem('jwtToken');
 
-        const response = await axios.get('http://localhost:5173/user', {
+      if (!token) {
+        setError('No token found. Please log in.');
+        return;
+      }
+
+      try {
+        const response = await axios.get('http://localhost:5000/api/user', {
           headers: {
-            Authorization: `Bearer ${token}`,
-          },
+            Authorization: `Bearer ${token}`
+          }
         });
 
         setUser(response.data);
       } catch (error) {
-        console.error('Error fetching user data:', error);
-        navigate('/login');
+        setError('Failed to fetch user information.');
       }
     };
 
-    fetchUser();
-  }, [navigate]);
+    fetchUserInfo();
+  }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem('token');
-    navigate('/login');
+    localStorage.removeItem('jwtToken');
+    window.location.href = '/';
   };
 
+  if (error) {
+    return (
+      <div className="container mx-auto px-6 py-16 text-center">
+        <p className="text-red-500">{error}</p>
+      </div>
+    );
+  }
+
   if (!user) {
-    return <div>Loading...</div>;
+    return (
+      <div className="container mx-auto px-6 py-16 text-center">
+        <p>Loading...</p>
+      </div>
+    );
   }
 
   return (
     <div className="container mx-auto px-6 py-16 text-center">
       <h1 className="text-4xl font-bold text-gray-800">Welcome to Your Dashboard</h1>
       <p className="mt-4 text-gray-600">Here you can manage your book reviews and more.</p>
-      <div className="mt-6">
-        <h2 className="text-2xl font-semibold text-gray-700">User Information</h2>
+      <div className="mt-8">
+        <h2 className="text-2xl font-bold text-gray-800">User Information</h2>
         <p className="mt-2 text-gray-600">Email: {user.email}</p>
         <p className="mt-2 text-gray-600">Username: {user.username}</p>
+        {/* Add more user information here */}
       </div>
       <button
+        className="mt-8 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
         onClick={handleLogout}
-        className="mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
         Logout
       </button>

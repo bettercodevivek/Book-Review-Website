@@ -5,6 +5,8 @@ const BookList = ({ onSelectBook }) => {
   const [books, setBooks] = useState([]);
   const [error, setError] = useState('');
   const [selectedBookId, setSelectedBookId] = useState(null); // Track selected book id for details
+  const [reviewFormData, setReviewFormData] = useState({ bookId: null, content: '', rating: 0 });
+  const [submittingReview, setSubmittingReview] = useState(false);
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -20,9 +22,45 @@ const BookList = ({ onSelectBook }) => {
   }, []);
 
   const handleSelectBook = (bookId) => {
-    // Toggle selected book id for details display
     setSelectedBookId(selectedBookId === bookId ? null : bookId);
     onSelectBook(bookId); // Call parent function if needed
+  };
+
+  const handleReviewFormChange = (event) => {
+    const { name, value } = event.target;
+    setReviewFormData({
+      ...reviewFormData,
+      [name]: value
+    });
+  };
+
+  const handleRatingChange = (rating) => {
+    setReviewFormData({
+      ...reviewFormData,
+      rating: rating
+    });
+  };
+
+  const handleReviewSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      setSubmittingReview(true);
+      const response = await axios.post('http://localhost:5174/reviews', reviewFormData);
+      const updatedBooks = books.map(book =>
+        book.id === reviewFormData.bookId
+          ? {
+              ...book,
+              reviews: [...book.reviews, response.data]
+            }
+          : book
+      );
+      setBooks(updatedBooks);
+      setReviewFormData({ bookId: null, content: '', rating: 0 });
+      setSubmittingReview(false);
+    } catch (error) {
+      console.error('Failed to submit review:', error);
+      setSubmittingReview(false);
+    }
   };
 
   const renderStars = (rating) => {
@@ -55,7 +93,7 @@ const BookList = ({ onSelectBook }) => {
             <div className="px-6 py-4">
               <h3 className="text-xl font-bold text-gray-800 mb-2">{book.title}</h3>
               <p className="text-gray-700">{book.author}</p>
-              {selectedBookId === book.id && ( // Display description and reviews if selectedBookId matches book.id
+              {selectedBookId === book.id && (
                 <>
                   <p className="text-gray-700 mt-2">{book.description}</p>
                   <div className="mt-4">
@@ -74,6 +112,37 @@ const BookList = ({ onSelectBook }) => {
                       ))}
                     </div>
                   </div>
+                  <form onSubmit={handleReviewSubmit} className="mt-4">
+                    <div className="mb-4">
+                      <label htmlFor="content" className="block text-sm font-medium text-gray-700">Review:</label>
+                      <textarea
+                        id="content"
+                        name="content"
+                        value={reviewFormData.content}
+                        onChange={handleReviewFormChange}
+                        required
+                        className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                      />
+                    </div>
+                    <div className="mb-4">
+                      <label className="block text-sm font-medium text-gray-700">Rating:</label>
+                      <div className="mt-1">
+                        {[1, 2, 3, 4, 5].map((rating) => (
+                          <span
+                            key={rating}
+                            onClick={() => handleRatingChange(rating)}
+                            className={`cursor-pointer ${rating <= reviewFormData.rating ? 'text-yellow-400' : 'text-gray-300'}`}>&#9733;</span>
+                        ))}
+                      </div>
+                    </div>
+                    <button
+                      type="submit"
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                      disabled={submittingReview}
+                    >
+                      {submittingReview ? 'Submitting...' : 'Submit Review'}
+                    </button>
+                  </form>
                 </>
               )}
               <button

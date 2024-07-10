@@ -10,7 +10,7 @@ export default function Navbar() {
     };
 
     return (
-        <header className="sticky top-0 z-50 bg-white">
+        <header className="sticky top-0 z-50 bg-white shadow">
             <nav className="bg-white border-gray-200 px-4 lg:px-8 py-2.5">
                 <div className="flex items-center justify-between mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
@@ -135,7 +135,7 @@ export default function Navbar() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to='/guidelines'
+                            <NavLink to='/guideline'
                                 onClick={toggleSidebar}
                                 className={({ isActive }) =>
                                     `flex items-center space-x-4 py-2 px-6 rounded-lg shadow-md bg-white text-lg font-semibold ${isActive ? "text-blue-500" : "text-gray-900"} hover:bg-gray-200 hover:text-blue-700 transition-transform transform hover:scale-105`

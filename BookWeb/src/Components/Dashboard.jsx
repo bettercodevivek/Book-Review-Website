@@ -1,27 +1,23 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect  } from 'react';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const Dashboard = () => {
   const [user, setUser] = useState(null);
   const [error, setError] = useState('');
+  const navigate=useNavigate();
 
   useEffect(() => {
     const fetchUserInfo = async () => {
-      const token = localStorage.getItem('jwtToken');
-
-      if (!token) {
-        setError('No token found. Please log in.');
-        return;
-      }
-
       try {
-        const response = await axios.get('http://localhost:5000/api/user', {
-          headers: {
-            Authorization: `Bearer ${token}`
-          }
-        });
+        const { data } = await axios.get('http://localhost:5174/users');
+        const loggedInUser = data.find(user => user.email); 
 
-        setUser(response.data);
+        if (loggedInUser) {
+          setUser(loggedInUser);
+        } else {
+          setError('User not found.');
+        }
       } catch (error) {
         setError('Failed to fetch user information.');
       }
@@ -31,8 +27,10 @@ const Dashboard = () => {
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem('jwtToken');
-    window.location.href = '/';
+      navigate('/login');
+    setUser(null);
+    setError('');
+    // window.location.href = '/login'; // You might use a router navigate instead
   };
 
   if (error) {
